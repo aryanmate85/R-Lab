@@ -1,7 +1,7 @@
 #1. variables & data types
-name = "om"
+name = "Aryan"
 print(name)
-age = 21
+age = 20
 print(age)
 is_student <- TRUE
 
@@ -9,11 +9,11 @@ is_student <- TRUE
 vector <- 1:10
 
 #3.Create a sequence from 5 to 50 with a step size of 5
-s <- seq(5,50, by = 5)
+s <- seq(5,50, by = 10)
 
 #4.Store the names of 5 fruits in a character vector and display the second and fourth fruit.
 fruits <- c("apple", "banana", "cherry", "grapes", "oranges")
-fruits[c(2,4)]
+fruits[c(1,3)]
 
 #5.Create a numeric vector of 10 random numbers between 1 and 100, then find
 set.seed(1)
@@ -25,7 +25,7 @@ max(nums);min(nums);mean(nums)
 df <- data.frame(
   name = c("n1", "n2", "n3","n4", "n5"),
   age = c(12, 13, 14, 15,16),
-  marks = c(55, 66, 77, 88, 99)
+  marks = c(43, 53, 63, 73, 83)
 )
 df
 
@@ -325,6 +325,7 @@ ggplot(top_10,aes( x = reorder(Name, -SR), y = SR)) +
 
 #Q6)
 cor(batting_bowling_ipl_bat$HF, batting_bowling_ipl_bat$Runs, use = "complete.obs")
+
 
 
 
